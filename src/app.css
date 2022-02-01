@@ -1,0 +1,53 @@
+.cont-app{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.h1-imc{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+span{
+    margin: 15px 0px;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+.input{
+    width: 50%;
+    height: auto;
+}
+.input-user{
+    width: 100%;
+    height: 45px;
+    margin: 3px 0px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    border: solid 1px white;
+    text-align: center;
+}
+.button{
+    width: 50%;
+    margin:15px 0;
+    height: 45px;
+    border-radius: 10px;
+    border: solid 1px white;
+    background-color: rgb(174, 253, 253);
+    color: black;
+    font-size: 15px;
+    transition: ease all 0.9s;
+}
+.button:hover{
+    background-color: blue;
+    transform: scale(1);
+    color: white;
+    
+}
+h2{
+    margin: 15px 0;
+}
